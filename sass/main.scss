@@ -1,0 +1,14 @@
+// custom variables
+$warning: #ffa630;
+$dark: #121420;
+$light: #f2efea;
+$navbar-dark-color: #ffa630;
+$navbar-dark-hover-color: #ffc880;
+$text-dark: $dark;
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.carousel-item {
+  max-height: 80vh;
+}
