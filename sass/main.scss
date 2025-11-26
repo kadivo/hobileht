@@ -9,6 +9,7 @@ $text-dark: $dark;
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.carousel-item {
-  max-height: 80vh;
-}
+//.carousel-inner > .carousel-item > img {
+//  max-height: 50vh;
+//  width: 100%;
+// }
