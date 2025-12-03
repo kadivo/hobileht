@@ -6,6 +6,12 @@ $navbar-dark-color: #ffa630;
 $navbar-dark-hover-color: #ffc880;
 $text-dark: $dark;
 
+h1,
+h2,
+h3 {
+  font-family: "Iceland", Courier, monospace;
+}
+
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
