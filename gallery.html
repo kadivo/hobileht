@@ -68,58 +68,118 @@
       <div class="container-xxl">
         <div class="row text-center pt-5">
           <!-- col 1 -->
-          <div class="col-lg-4 col-md-12">
-            <img
-              src="assets/church1_landscape.jpg"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
-            <img
-              src="assets/mountain1_landscape.jpg"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
-            <img
-              src="assets/sannu_portrait.png"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Fääri saared - Kirik - Juuni 2025"
+            >
+              <img
+                src="assets/church1_landscape.jpg"
+                alt="Fääri saared - kirik - juuni 2025"
+                class="img-fluid mb-4"
+              />
+            </span>
+
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Fääri saared - Nolsoy - Juuni 2025"
+            >
+              <img
+                src="assets/mountain1_landscape.jpg"
+                alt="Fääri saared nolsoy Juuni 2025"
+                class="img-fluid mb-4"
+              />
+            </span>
+
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Tartu - Kass Sannu - Juuni 2024"
+            >
+              <img
+                src="assets/sannu_portrait.png"
+                alt="Tartu Kass Sannu Juuni 2024"
+                class="img-fluid mb-4"
+              />
+            </span>
           </div>
           <!-- col 2 -->
-          <div class="col-lg-4">
-            <img
-              src="assets/cat_portrait.png"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
-            <img
-              src="assets/puffin_landscape.jpg"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
-            <img
-              src="assets/swallow_landscape.png"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Põlva - Must kass - August 2020"
+            >
+              <img
+                src="assets/cat_portrait.png"
+                alt="Põlva Must kass August 2020"
+                class="img-fluid mb-4"
+              />
+            </span>
+
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Fääri saared - Lunn - Juuni 2025"
+            >
+              <img
+                src="assets/puffin_landscape.jpg"
+                alt="Fääri saared lunn juuni 2025"
+                class="img-fluid mb-4"
+              />
+            </span>
+
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Nõo - Pääsuke traadil - August 2025"
+            >
+              <img
+                src="assets/swallow_landscape.png"
+                alt="Nõo Pääsuke traadil August 2025"
+                class="img-fluid mb-4"
+              />
+            </span>
           </div>
           <!-- col 3 -->
-          <div class="col-lg-4">
-            <img
-              src="assets/sceneryTree_landscape.png"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
-            <img
-              src="assets/crow_portrait.jpg"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
-            <img
-              src="assets/church2_landscape.jpg"
-              alt="placeholder"
-              class="img-fluid mb-4"
-            />
+          <div class="col-lg-4 col-md-12">
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Kanada - Centre Island - Päikeseloojang ja puu- 2019"
+            >
+              <img
+                src="assets/sceneryTree_landscape.png"
+                alt="Kanada centre island päikeseloojang ja puu 2019"
+                class="img-fluid mb-4"
+              />
+            </span>
+
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Tartu - Vares puul - Juuni 2024"
+            >
+              <img
+                src="assets/crow_portrait.jpg"
+                alt="Tartu Vares puul Juuni 2024"
+                class="img-fluid mb-4"
+              />
+            </span>
+
+            <span
+              class="tt"
+              data-bs-placement="bottom"
+              title="Fääri saared - Kirik - Juuni 2025"
+            >
+              <img
+                src="assets/church2_landscape.jpg"
+                alt="Fääri saared Kirik Juuni 2025"
+                class="img-fluid mb-4"
+              />
+            </span>
           </div>
         </div>
       </div>
@@ -140,5 +200,12 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <!-- tooltip script -->
+    <script>
+      const tooltips = document.querySelectorAll(".tt");
+      tooltips.forEach((t) => {
+        new bootstrap.Tooltip(t);
+      });
+    </script>
   </body>
 </html>
